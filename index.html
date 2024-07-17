@@ -10,25 +10,27 @@
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <script src="https://cdn.tailwindcss.com"></script>
+        <link href="./aos/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        
     </head>
 
-    <body class="min-h-dvh bg-slate-100 flex flex-row items-center justify-center">
+    <body class="min-h-dvh bg-slate-100 flex flex-row items-center justify-center overflow-x-hidden">
 
-        <div class="m-8 p-3 pb-5 max-w-96 shadow-lg rounded-2xl bg-white">
+        <div class="m-8 p-3 pb-5 max-w-96 shadow-lg rounded-2xl bg-white overflow-hidden">
             <div>
-                <img draggable="false" src="./src/LogoAndText.png" alt="">
+                <img data-aos="zoom-in-down" data-aos-duration="700"  draggable="false" src="./src/LogoAndText.png" alt="">
             </div>
             <div class="">
-                <img draggable="false" src="./src/page.png" alt="" class="px-16 pb-6 pt-3">
+                <img data-aos="zoom-in-up" data-aos-duration="800" draggable="false" src="./src/page.png" alt="" class="px-16 pb-6 pt-3">
                 <p class="text-center">แอปพลิเคชันสำหรับการแสกนโรคพืช</p>
                <div class="w-full flex justify-center mt-2">
-                <a href="./src/MyplantsApplication.apk" class="shadow-lg border-4 border-[#39A736]  rounded-2xl px-5 py-2 m-auto hover:bg-[#39A736] duration-300 hover:text-white">ดาวน์โหลดเลย</a>
+                <a data-aos="zoom-in"  href="./download.html" onclick="" class="shadow-lg border-4 border-[#39A736] rounded-2xl px-5 py-2 m-auto hover:bg-[#39A736] duration-300 hover:text-white">ดาวน์โหลดเลย</a>
                </div>
-               <p class="text-center mt-8 text-sm">© coppyright Yupparaj Wittayalai</p>
+               <p  class="text-center mt-8 text-sm">© coppyright Yupparaj Wittayalai</p>
             </div>
         </div>
         
-
+        <script src="./aos/aos.js"></script>
     </body>
 </html>
